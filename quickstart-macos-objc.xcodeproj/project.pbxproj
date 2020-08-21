@@ -415,7 +415,7 @@
 				CODE_SIGN_ENTITLEMENTS = "quickstart-macos-objc/quickstart_macos_objc.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = AZ8N2X322A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,7 +438,7 @@
 				CODE_SIGN_ENTITLEMENTS = "quickstart-macos-objc/quickstart_macos_objc.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = AZ8N2X322A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
