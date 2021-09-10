@@ -91,7 +91,7 @@
     [self.masks addObject:[[NSBundle mainBundle]  pathForResource:@"twistedFace" ofType:@""]];
 
     self.effects = [NSMutableArray array];
-    [self.filters addObject:@"none"];
+    [self.effects addObject:@"none"];
     [self.effects addObject:[[NSBundle mainBundle]  pathForResource:@"fire" ofType:@""]];
     [self.effects addObject:[[NSBundle mainBundle]  pathForResource:@"heart" ofType:@""]];
     [self.effects addObject:[[NSBundle mainBundle]  pathForResource:@"blizzard" ofType:@""]];
