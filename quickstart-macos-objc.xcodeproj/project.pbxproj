@@ -7,34 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		664831D424ED0C6C000920BF /* aviators in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2DD24EC2AED00DD907E /* aviators */; };
-		664831D524ED0C7F000920BF /* bigmouth in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2E124EC2AEE00DD907E /* bigmouth */; };
-		664831D624ED0C7F000920BF /* bleachbypass in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2E224EC2AEE00DD907E /* bleachbypass */; };
-		664831D724ED0C7F000920BF /* blizzard in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2E524EC2AEE00DD907E /* blizzard */; };
-		664831D824ED0C7F000920BF /* dalmatian in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D324EC2AED00DD907E /* dalmatian */; };
-		664831D924ED0C7F000920BF /* drawingmanga in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D524EC2AED00DD907E /* drawingmanga */; };
-		664831DA24ED0C7F000920BF /* fatify in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2DB24EC2AED00DD907E /* fatify */; };
-		664831DB24ED0C7F000920BF /* filmcolorperfection in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2CB24EC2AEC00DD907E /* filmcolorperfection */; };
-		664831DC24ED0C7F000920BF /* fire in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2CC24EC2AEC00DD907E /* fire */; };
-		664831DD24ED0C7F000920BF /* flowers in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2E424EC2AEE00DD907E /* flowers */; };
-		664831DE24ED0C7F000920BF /* grumpycat in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2CE24EC2AEC00DD907E /* grumpycat */; };
-		664831DF24ED0C7F000920BF /* heart in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2DE24EC2AED00DD907E /* heart */; };
-		664831E024ED0C7F000920BF /* kanye in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D124EC2AEC00DD907E /* kanye */; };
-		664831E124ED0C7F000920BF /* koala in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2E024EC2AEE00DD907E /* koala */; };
-		664831E224ED0C7F000920BF /* lion in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D724EC2AED00DD907E /* lion */; };
-		664831E324ED0C7F000920BF /* mudMask in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2E324EC2AEE00DD907E /* mudMask */; };
-		664831E424ED0C7F000920BF /* obama in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2DC24EC2AED00DD907E /* obama */; };
-		664831E524ED0C7F000920BF /* pug in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2DA24EC2AED00DD907E /* pug */; };
-		664831E624ED0C7F000920BF /* rain in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D824EC2AED00DD907E /* rain */; };
-		664831E724ED0C7F000920BF /* realvhs in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D924EC2AED00DD907E /* realvhs */; };
-		664831E824ED0C7F000920BF /* sepia in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D224EC2AED00DD907E /* sepia */; };
-		664831E924ED0C7F000920BF /* slash in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D424EC2AED00DD907E /* slash */; };
-		664831EA24ED0C7F000920BF /* sleepingmask in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2CD24EC2AEC00DD907E /* sleepingmask */; };
-		664831EB24ED0C7F000920BF /* smallface in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2CF24EC2AEC00DD907E /* smallface */; };
-		664831EC24ED0C7F000920BF /* teddycigar in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2DF24EC2AEE00DD907E /* teddycigar */; };
-		664831ED24ED0C7F000920BF /* tripleface in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D024EC2AEC00DD907E /* tripleface */; };
-		664831EE24ED0C7F000920BF /* tv80 in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2E624EC2AEE00DD907E /* tv80 */; };
-		664831EF24ED0C7F000920BF /* twistedFace in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2D624EC2AED00DD907E /* twistedFace */; };
 		66D6B2B824EC2A3900DD907E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6B2B724EC2A3900DD907E /* AppDelegate.m */; };
 		66D6B2BB24EC2A3900DD907E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6B2BA24EC2A3900DD907E /* ViewController.m */; };
 		66D6B2BD24EC2A3A00DD907E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2BC24EC2A3A00DD907E /* Assets.xcassets */; };
@@ -42,6 +14,24 @@
 		66D6B2C324EC2A3A00DD907E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6B2C224EC2A3A00DD907E /* main.m */; };
 		66D6B2E924EC2C0B00DD907E /* DeepAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D6B2E724EC2B1300DD907E /* DeepAR.framework */; };
 		66D6B2EA24EC2C0B00DD907E /* DeepAR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66D6B2E724EC2B1300DD907E /* DeepAR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DD69CED2857BE3D00AE9B05 /* Stallone.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CDB2857BE3D00AE9B05 /* Stallone.deepar */; };
+		8DD69CEE2857BE3D00AE9B05 /* Elephant_Trunk.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CDC2857BE3D00AE9B05 /* Elephant_Trunk.deepar */; };
+		8DD69CEF2857BE3D00AE9B05 /* viking_helmet.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CDD2857BE3D00AE9B05 /* viking_helmet.deepar */; };
+		8DD69CF02857BE3D00AE9B05 /* galaxy_background.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CDE2857BE3D00AE9B05 /* galaxy_background.deepar */; };
+		8DD69CF12857BE3D00AE9B05 /* flower_face.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CDF2857BE3D00AE9B05 /* flower_face.deepar */; };
+		8DD69CF22857BE3D00AE9B05 /* Snail.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE02857BE3D00AE9B05 /* Snail.deepar */; };
+		8DD69CF32857BE3D00AE9B05 /* Fire_Effect.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE12857BE3D00AE9B05 /* Fire_Effect.deepar */; };
+		8DD69CF42857BE3D00AE9B05 /* Vendetta_Mask.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE22857BE3D00AE9B05 /* Vendetta_Mask.deepar */; };
+		8DD69CF52857BE3D00AE9B05 /* Emotions_Exaggerator.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE32857BE3D00AE9B05 /* Emotions_Exaggerator.deepar */; };
+		8DD69CF62857BE3D00AE9B05 /* Hope.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE42857BE3D00AE9B05 /* Hope.deepar */; };
+		8DD69CF72857BE3D00AE9B05 /* Ping_Pong.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE52857BE3D00AE9B05 /* Ping_Pong.deepar */; };
+		8DD69CF82857BE3D00AE9B05 /* MakeupLook.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE62857BE3D00AE9B05 /* MakeupLook.deepar */; };
+		8DD69CF92857BE3D00AE9B05 /* Pixel_Hearts.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE72857BE3D00AE9B05 /* Pixel_Hearts.deepar */; };
+		8DD69CFA2857BE3D00AE9B05 /* Split_View_Look.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE82857BE3D00AE9B05 /* Split_View_Look.deepar */; };
+		8DD69CFB2857BE3D00AE9B05 /* Emotion_Meter.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CE92857BE3D00AE9B05 /* Emotion_Meter.deepar */; };
+		8DD69CFC2857BE3D00AE9B05 /* Neon_Devil_Horns.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CEA2857BE3D00AE9B05 /* Neon_Devil_Horns.deepar */; };
+		8DD69CFD2857BE3D00AE9B05 /* Humanoid.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CEB2857BE3D00AE9B05 /* Humanoid.deepar */; };
+		8DD69CFE2857BE3D00AE9B05 /* burning_effect.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CEC2857BE3D00AE9B05 /* burning_effect.deepar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,35 +59,25 @@
 		66D6B2C124EC2A3A00DD907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66D6B2C224EC2A3A00DD907E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66D6B2C424EC2A3A00DD907E /* quickstart_macos_objc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = quickstart_macos_objc.entitlements; sourceTree = "<group>"; };
-		66D6B2CB24EC2AEC00DD907E /* filmcolorperfection */ = {isa = PBXFileReference; lastKnownFileType = file; path = filmcolorperfection; sourceTree = "<group>"; };
-		66D6B2CC24EC2AEC00DD907E /* fire */ = {isa = PBXFileReference; lastKnownFileType = file; path = fire; sourceTree = "<group>"; };
-		66D6B2CD24EC2AEC00DD907E /* sleepingmask */ = {isa = PBXFileReference; lastKnownFileType = file; path = sleepingmask; sourceTree = "<group>"; };
-		66D6B2CE24EC2AEC00DD907E /* grumpycat */ = {isa = PBXFileReference; lastKnownFileType = file; path = grumpycat; sourceTree = "<group>"; };
-		66D6B2CF24EC2AEC00DD907E /* smallface */ = {isa = PBXFileReference; lastKnownFileType = file; path = smallface; sourceTree = "<group>"; };
-		66D6B2D024EC2AEC00DD907E /* tripleface */ = {isa = PBXFileReference; lastKnownFileType = file; path = tripleface; sourceTree = "<group>"; };
-		66D6B2D124EC2AEC00DD907E /* kanye */ = {isa = PBXFileReference; lastKnownFileType = file; path = kanye; sourceTree = "<group>"; };
-		66D6B2D224EC2AED00DD907E /* sepia */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepia; sourceTree = "<group>"; };
-		66D6B2D324EC2AED00DD907E /* dalmatian */ = {isa = PBXFileReference; lastKnownFileType = file; path = dalmatian; sourceTree = "<group>"; };
-		66D6B2D424EC2AED00DD907E /* slash */ = {isa = PBXFileReference; lastKnownFileType = file; path = slash; sourceTree = "<group>"; };
-		66D6B2D524EC2AED00DD907E /* drawingmanga */ = {isa = PBXFileReference; lastKnownFileType = file; path = drawingmanga; sourceTree = "<group>"; };
-		66D6B2D624EC2AED00DD907E /* twistedFace */ = {isa = PBXFileReference; lastKnownFileType = file; path = twistedFace; sourceTree = "<group>"; };
-		66D6B2D724EC2AED00DD907E /* lion */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion; sourceTree = "<group>"; };
-		66D6B2D824EC2AED00DD907E /* rain */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain; sourceTree = "<group>"; };
-		66D6B2D924EC2AED00DD907E /* realvhs */ = {isa = PBXFileReference; lastKnownFileType = file; path = realvhs; sourceTree = "<group>"; };
-		66D6B2DA24EC2AED00DD907E /* pug */ = {isa = PBXFileReference; lastKnownFileType = file; path = pug; sourceTree = "<group>"; };
-		66D6B2DB24EC2AED00DD907E /* fatify */ = {isa = PBXFileReference; lastKnownFileType = file; path = fatify; sourceTree = "<group>"; };
-		66D6B2DC24EC2AED00DD907E /* obama */ = {isa = PBXFileReference; lastKnownFileType = file; path = obama; sourceTree = "<group>"; };
-		66D6B2DD24EC2AED00DD907E /* aviators */ = {isa = PBXFileReference; lastKnownFileType = file; path = aviators; sourceTree = "<group>"; };
-		66D6B2DE24EC2AED00DD907E /* heart */ = {isa = PBXFileReference; lastKnownFileType = file; path = heart; sourceTree = "<group>"; };
-		66D6B2DF24EC2AEE00DD907E /* teddycigar */ = {isa = PBXFileReference; lastKnownFileType = file; path = teddycigar; sourceTree = "<group>"; };
-		66D6B2E024EC2AEE00DD907E /* koala */ = {isa = PBXFileReference; lastKnownFileType = file; path = koala; sourceTree = "<group>"; };
-		66D6B2E124EC2AEE00DD907E /* bigmouth */ = {isa = PBXFileReference; lastKnownFileType = file; path = bigmouth; sourceTree = "<group>"; };
-		66D6B2E224EC2AEE00DD907E /* bleachbypass */ = {isa = PBXFileReference; lastKnownFileType = file; path = bleachbypass; sourceTree = "<group>"; };
-		66D6B2E324EC2AEE00DD907E /* mudMask */ = {isa = PBXFileReference; lastKnownFileType = file; path = mudMask; sourceTree = "<group>"; };
-		66D6B2E424EC2AEE00DD907E /* flowers */ = {isa = PBXFileReference; lastKnownFileType = file; path = flowers; sourceTree = "<group>"; };
-		66D6B2E524EC2AEE00DD907E /* blizzard */ = {isa = PBXFileReference; lastKnownFileType = file; path = blizzard; sourceTree = "<group>"; };
-		66D6B2E624EC2AEE00DD907E /* tv80 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tv80; sourceTree = "<group>"; };
 		66D6B2E724EC2B1300DD907E /* DeepAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DeepAR.framework; sourceTree = "<group>"; };
+		8DD69CDB2857BE3D00AE9B05 /* Stallone.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stallone.deepar; sourceTree = "<group>"; };
+		8DD69CDC2857BE3D00AE9B05 /* Elephant_Trunk.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Elephant_Trunk.deepar; sourceTree = "<group>"; };
+		8DD69CDD2857BE3D00AE9B05 /* viking_helmet.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = viking_helmet.deepar; sourceTree = "<group>"; };
+		8DD69CDE2857BE3D00AE9B05 /* galaxy_background.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = galaxy_background.deepar; sourceTree = "<group>"; };
+		8DD69CDF2857BE3D00AE9B05 /* flower_face.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = flower_face.deepar; sourceTree = "<group>"; };
+		8DD69CE02857BE3D00AE9B05 /* Snail.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snail.deepar; sourceTree = "<group>"; };
+		8DD69CE12857BE3D00AE9B05 /* Fire_Effect.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fire_Effect.deepar; sourceTree = "<group>"; };
+		8DD69CE22857BE3D00AE9B05 /* Vendetta_Mask.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vendetta_Mask.deepar; sourceTree = "<group>"; };
+		8DD69CE32857BE3D00AE9B05 /* Emotions_Exaggerator.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emotions_Exaggerator.deepar; sourceTree = "<group>"; };
+		8DD69CE42857BE3D00AE9B05 /* Hope.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hope.deepar; sourceTree = "<group>"; };
+		8DD69CE52857BE3D00AE9B05 /* Ping_Pong.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ping_Pong.deepar; sourceTree = "<group>"; };
+		8DD69CE62857BE3D00AE9B05 /* MakeupLook.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = MakeupLook.deepar; sourceTree = "<group>"; };
+		8DD69CE72857BE3D00AE9B05 /* Pixel_Hearts.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixel_Hearts.deepar; sourceTree = "<group>"; };
+		8DD69CE82857BE3D00AE9B05 /* Split_View_Look.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Split_View_Look.deepar; sourceTree = "<group>"; };
+		8DD69CE92857BE3D00AE9B05 /* Emotion_Meter.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emotion_Meter.deepar; sourceTree = "<group>"; };
+		8DD69CEA2857BE3D00AE9B05 /* Neon_Devil_Horns.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Neon_Devil_Horns.deepar; sourceTree = "<group>"; };
+		8DD69CEB2857BE3D00AE9B05 /* Humanoid.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Humanoid.deepar; sourceTree = "<group>"; };
+		8DD69CEC2857BE3D00AE9B05 /* burning_effect.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = burning_effect.deepar; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,34 +129,24 @@
 		66D6B2CA24EC2AD300DD907E /* Effects */ = {
 			isa = PBXGroup;
 			children = (
-				66D6B2DD24EC2AED00DD907E /* aviators */,
-				66D6B2E124EC2AEE00DD907E /* bigmouth */,
-				66D6B2E224EC2AEE00DD907E /* bleachbypass */,
-				66D6B2E524EC2AEE00DD907E /* blizzard */,
-				66D6B2D324EC2AED00DD907E /* dalmatian */,
-				66D6B2D524EC2AED00DD907E /* drawingmanga */,
-				66D6B2DB24EC2AED00DD907E /* fatify */,
-				66D6B2CB24EC2AEC00DD907E /* filmcolorperfection */,
-				66D6B2CC24EC2AEC00DD907E /* fire */,
-				66D6B2E424EC2AEE00DD907E /* flowers */,
-				66D6B2CE24EC2AEC00DD907E /* grumpycat */,
-				66D6B2DE24EC2AED00DD907E /* heart */,
-				66D6B2D124EC2AEC00DD907E /* kanye */,
-				66D6B2E024EC2AEE00DD907E /* koala */,
-				66D6B2D724EC2AED00DD907E /* lion */,
-				66D6B2E324EC2AEE00DD907E /* mudMask */,
-				66D6B2DC24EC2AED00DD907E /* obama */,
-				66D6B2DA24EC2AED00DD907E /* pug */,
-				66D6B2D824EC2AED00DD907E /* rain */,
-				66D6B2D924EC2AED00DD907E /* realvhs */,
-				66D6B2D224EC2AED00DD907E /* sepia */,
-				66D6B2D424EC2AED00DD907E /* slash */,
-				66D6B2CD24EC2AEC00DD907E /* sleepingmask */,
-				66D6B2CF24EC2AEC00DD907E /* smallface */,
-				66D6B2DF24EC2AEE00DD907E /* teddycigar */,
-				66D6B2D024EC2AEC00DD907E /* tripleface */,
-				66D6B2E624EC2AEE00DD907E /* tv80 */,
-				66D6B2D624EC2AED00DD907E /* twistedFace */,
+				8DD69CEC2857BE3D00AE9B05 /* burning_effect.deepar */,
+				8DD69CDC2857BE3D00AE9B05 /* Elephant_Trunk.deepar */,
+				8DD69CE92857BE3D00AE9B05 /* Emotion_Meter.deepar */,
+				8DD69CE32857BE3D00AE9B05 /* Emotions_Exaggerator.deepar */,
+				8DD69CE12857BE3D00AE9B05 /* Fire_Effect.deepar */,
+				8DD69CDF2857BE3D00AE9B05 /* flower_face.deepar */,
+				8DD69CDE2857BE3D00AE9B05 /* galaxy_background.deepar */,
+				8DD69CE42857BE3D00AE9B05 /* Hope.deepar */,
+				8DD69CEB2857BE3D00AE9B05 /* Humanoid.deepar */,
+				8DD69CE62857BE3D00AE9B05 /* MakeupLook.deepar */,
+				8DD69CEA2857BE3D00AE9B05 /* Neon_Devil_Horns.deepar */,
+				8DD69CE52857BE3D00AE9B05 /* Ping_Pong.deepar */,
+				8DD69CE72857BE3D00AE9B05 /* Pixel_Hearts.deepar */,
+				8DD69CE02857BE3D00AE9B05 /* Snail.deepar */,
+				8DD69CE82857BE3D00AE9B05 /* Split_View_Look.deepar */,
+				8DD69CDB2857BE3D00AE9B05 /* Stallone.deepar */,
+				8DD69CE22857BE3D00AE9B05 /* Vendetta_Mask.deepar */,
+				8DD69CDD2857BE3D00AE9B05 /* viking_helmet.deepar */,
 			);
 			path = Effects;
 			sourceTree = "<group>";
@@ -208,7 +178,7 @@
 		66D6B2AB24EC2A3900DD907E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Kod Biro";
 				TargetAttributes = {
 					66D6B2B224EC2A3900DD907E = {
@@ -239,36 +209,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664831E924ED0C7F000920BF /* slash in Resources */,
-				664831E224ED0C7F000920BF /* lion in Resources */,
-				664831D824ED0C7F000920BF /* dalmatian in Resources */,
-				664831E824ED0C7F000920BF /* sepia in Resources */,
+				8DD69CEE2857BE3D00AE9B05 /* Elephant_Trunk.deepar in Resources */,
+				8DD69CFE2857BE3D00AE9B05 /* burning_effect.deepar in Resources */,
+				8DD69CF42857BE3D00AE9B05 /* Vendetta_Mask.deepar in Resources */,
+				8DD69CF12857BE3D00AE9B05 /* flower_face.deepar in Resources */,
+				8DD69CF92857BE3D00AE9B05 /* Pixel_Hearts.deepar in Resources */,
+				8DD69CF22857BE3D00AE9B05 /* Snail.deepar in Resources */,
+				8DD69CEF2857BE3D00AE9B05 /* viking_helmet.deepar in Resources */,
+				8DD69CF02857BE3D00AE9B05 /* galaxy_background.deepar in Resources */,
+				8DD69CFD2857BE3D00AE9B05 /* Humanoid.deepar in Resources */,
+				8DD69CF62857BE3D00AE9B05 /* Hope.deepar in Resources */,
+				8DD69CFC2857BE3D00AE9B05 /* Neon_Devil_Horns.deepar in Resources */,
+				8DD69CF72857BE3D00AE9B05 /* Ping_Pong.deepar in Resources */,
+				8DD69CF52857BE3D00AE9B05 /* Emotions_Exaggerator.deepar in Resources */,
 				66D6B2BD24EC2A3A00DD907E /* Assets.xcassets in Resources */,
-				664831D624ED0C7F000920BF /* bleachbypass in Resources */,
-				664831EC24ED0C7F000920BF /* teddycigar in Resources */,
-				664831E024ED0C7F000920BF /* kanye in Resources */,
-				664831E424ED0C7F000920BF /* obama in Resources */,
-				664831DB24ED0C7F000920BF /* filmcolorperfection in Resources */,
-				664831EE24ED0C7F000920BF /* tv80 in Resources */,
-				664831DA24ED0C7F000920BF /* fatify in Resources */,
+				8DD69CFB2857BE3D00AE9B05 /* Emotion_Meter.deepar in Resources */,
+				8DD69CF82857BE3D00AE9B05 /* MakeupLook.deepar in Resources */,
 				66D6B2C024EC2A3A00DD907E /* Main.storyboard in Resources */,
-				664831D924ED0C7F000920BF /* drawingmanga in Resources */,
-				664831DE24ED0C7F000920BF /* grumpycat in Resources */,
-				664831E524ED0C7F000920BF /* pug in Resources */,
-				664831E724ED0C7F000920BF /* realvhs in Resources */,
-				664831D424ED0C6C000920BF /* aviators in Resources */,
-				664831EF24ED0C7F000920BF /* twistedFace in Resources */,
-				664831EA24ED0C7F000920BF /* sleepingmask in Resources */,
-				664831DC24ED0C7F000920BF /* fire in Resources */,
-				664831DD24ED0C7F000920BF /* flowers in Resources */,
-				664831E624ED0C7F000920BF /* rain in Resources */,
-				664831D724ED0C7F000920BF /* blizzard in Resources */,
-				664831E124ED0C7F000920BF /* koala in Resources */,
-				664831E324ED0C7F000920BF /* mudMask in Resources */,
-				664831EB24ED0C7F000920BF /* smallface in Resources */,
-				664831ED24ED0C7F000920BF /* tripleface in Resources */,
-				664831D524ED0C7F000920BF /* bigmouth in Resources */,
-				664831DF24ED0C7F000920BF /* heart in Resources */,
+				8DD69CED2857BE3D00AE9B05 /* Stallone.deepar in Resources */,
+				8DD69CF32857BE3D00AE9B05 /* Fire_Effect.deepar in Resources */,
+				8DD69CFA2857BE3D00AE9B05 /* Split_View_Look.deepar in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +285,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -383,6 +344,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
