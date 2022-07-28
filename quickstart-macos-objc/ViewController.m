@@ -50,6 +50,9 @@
 
     self.cameraController = [[CameraController alloc] init];
     self.cameraController.deepAR = self.deepAR;
+    
+    //External camera device
+    //self.cameraController.videoDevice = [AVCaptureDevice defaultDeviceWithDeviceType:AVCaptureDeviceTypeExternalUnknown mediaType:AVMediaTypeVideo position:AVCaptureDevicePositionUnspecified];
 
     [self.cameraController startCamera];
     self.effects = [NSMutableArray array];
