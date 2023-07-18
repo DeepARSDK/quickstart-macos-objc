@@ -1,10 +1,26 @@
 # quickstart-macos-objc
 
-To run the example
-* Go to https://developer.deepar.ai, sign up, create your project and an MacOS app within it. Copy the license key and paste it to ViewController.m (instead of your_license_key_goes_here string)
-* Download the SDK from https://developer.deepar.ai and copy the DeepAR.framework into quickstart-macos-objc folder. Make sure the DeepAR.framework is aded to the xCode project - it must be visible in the xCode file explorer.
-* In the quickstart-macos-objc project settings, tab General, section Frameworks, Libraries, and Embedded Content must have DeepAR.framework entry with Embed & Sign option selected 
+## Overview
 
-Common issues
-* If your mac has an M1 chip you need to change the build target to My Mac (Rosetta)
-* If your build fails with a cycle error you need to use the chenge the build system to Legacy build system in File->Project/Workspace settings
+This is an example app demonstrating DeepAR SDK.
+
+- Preview of fun face filters, effects and background replacement.
+- Carousel with filter thumbnails.
+- Take screenshot.
+- Source code demonstrates how to integrate DeepAR for iOS/MacOS in your app.
+
+For more info on DeepAR for iOS/MacOS see: https://docs.deepar.ai/category/deepar-sdk-for-ios
+
+## How to run
+
+1. Open the project in Xcode.
+2. Create a DeepAR developer account: https://developer.deepar.ai/signup.
+3. Create a project: https://developer.deepar.ai/projects.
+4. Add a MacOS app to the project. Note that you need to specify the bundle id of your app. In this case it is "ai.deepar.quickstart-ios".
+5. Copy the generated license key in the `ViewController.m` instead of your_license_key_here.
+
+
+## Common issues
+- If your Mac has an M1 chip you need to change the build target to My Mac (Rosetta).
+- If the app keeps shutting down, this means you have some license key issue. Make sure you have properly setup the project on dev portal with correct bundle ID and copied the correct license key.
+- In this example we have disabled library validation (Signing & Capabilities -> Hardened runtime). To distribute your app, you need to enable it and properly sign the DeepAR.xcframework.

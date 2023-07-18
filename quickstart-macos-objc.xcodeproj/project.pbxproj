@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,8 +12,7 @@
 		66D6B2BD24EC2A3A00DD907E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2BC24EC2A3A00DD907E /* Assets.xcassets */; };
 		66D6B2C024EC2A3A00DD907E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D6B2BE24EC2A3A00DD907E /* Main.storyboard */; };
 		66D6B2C324EC2A3A00DD907E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6B2C224EC2A3A00DD907E /* main.m */; };
-		66D6B2E924EC2C0B00DD907E /* DeepAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D6B2E724EC2B1300DD907E /* DeepAR.framework */; };
-		66D6B2EA24EC2C0B00DD907E /* DeepAR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 66D6B2E724EC2B1300DD907E /* DeepAR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		66D898B62A66D790006A9DD0 /* DeepAR in Frameworks */ = {isa = PBXBuildFile; productRef = 66D898B52A66D790006A9DD0 /* DeepAR */; };
 		8DD69CED2857BE3D00AE9B05 /* Stallone.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CDB2857BE3D00AE9B05 /* Stallone.deepar */; };
 		8DD69CEE2857BE3D00AE9B05 /* Elephant_Trunk.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CDC2857BE3D00AE9B05 /* Elephant_Trunk.deepar */; };
 		8DD69CEF2857BE3D00AE9B05 /* viking_helmet.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8DD69CDD2857BE3D00AE9B05 /* viking_helmet.deepar */; };
@@ -41,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				66D6B2EA24EC2C0B00DD907E /* DeepAR.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +57,6 @@
 		66D6B2C124EC2A3A00DD907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66D6B2C224EC2A3A00DD907E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66D6B2C424EC2A3A00DD907E /* quickstart_macos_objc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = quickstart_macos_objc.entitlements; sourceTree = "<group>"; };
-		66D6B2E724EC2B1300DD907E /* DeepAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DeepAR.framework; sourceTree = "<group>"; };
 		8DD69CDB2857BE3D00AE9B05 /* Stallone.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stallone.deepar; sourceTree = "<group>"; };
 		8DD69CDC2857BE3D00AE9B05 /* Elephant_Trunk.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = Elephant_Trunk.deepar; sourceTree = "<group>"; };
 		8DD69CDD2857BE3D00AE9B05 /* viking_helmet.deepar */ = {isa = PBXFileReference; lastKnownFileType = file; path = viking_helmet.deepar; sourceTree = "<group>"; };
@@ -85,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66D6B2E924EC2C0B00DD907E /* DeepAR.framework in Frameworks */,
+				66D898B62A66D790006A9DD0 /* DeepAR in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				66D6B2CA24EC2AD300DD907E /* Effects */,
-				66D6B2E724EC2B1300DD907E /* DeepAR.framework */,
 				66D6B2B624EC2A3900DD907E /* AppDelegate.h */,
 				66D6B2B724EC2A3900DD907E /* AppDelegate.m */,
 				66D6B2B924EC2A3900DD907E /* ViewController.h */,
@@ -168,6 +164,9 @@
 			dependencies = (
 			);
 			name = "quickstart-macos-objc";
+			packageProductDependencies = (
+				66D898B52A66D790006A9DD0 /* DeepAR */,
+			);
 			productName = "quickstart-macos-objc";
 			productReference = 66D6B2B324EC2A3900DD907E /* quickstart-macos-objc.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +194,9 @@
 				Base,
 			);
 			mainGroup = 66D6B2AA24EC2A3900DD907E;
+			packageReferences = (
+				66D898B42A66D790006A9DD0 /* XCRemoteSwiftPackageReference "swift-deepar" */,
+			);
 			productRefGroup = 66D6B2B424EC2A3900DD907E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -373,12 +375,15 @@
 		66D6B2C824EC2A3A00DD907E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = x86_64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "quickstart-macos-objc/quickstart_macos_objc.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/quickstart-macos-objc",
@@ -388,6 +393,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = "ai.deepar.quickstart-macos-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -396,12 +402,15 @@
 		66D6B2C924EC2A3A00DD907E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = x86_64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "quickstart-macos-objc/quickstart_macos_objc.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/quickstart-macos-objc",
@@ -411,6 +420,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = "ai.deepar.quickstart-macos-objc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -438,6 +448,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		66D898B42A66D790006A9DD0 /* XCRemoteSwiftPackageReference "swift-deepar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DeepARSDK/swift-deepar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "5.3.1-alpha-981";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66D898B52A66D790006A9DD0 /* DeepAR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D898B42A66D790006A9DD0 /* XCRemoteSwiftPackageReference "swift-deepar" */;
+			productName = DeepAR;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 66D6B2AB24EC2A3900DD907E /* Project object */;
 }

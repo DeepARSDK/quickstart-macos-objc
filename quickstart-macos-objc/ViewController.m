@@ -41,7 +41,7 @@
 
     // Instantiate DeepAR and add it to view hierarchy.
     self.deepAR = [[DeepAR alloc] init];
-    [self.deepAR setLicenseKey:@"your_license_key_goes_here"];
+    [self.deepAR setLicenseKey:@"your_license_key_here"];
     self.deepAR.delegate = self;
 
     self.arview = [self.deepAR initializeViewWithFrame:[NSScreen mainScreen].visibleFrame];
